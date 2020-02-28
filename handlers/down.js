@@ -1,7 +1,7 @@
-function downHandler() {
+function downHandler(userInput) {
   debugger;
   // read user input & cast to Number
-
+const userInput = userInput(Number);
   // read state
 
   // perform logic, combining state with user input
